@@ -12,26 +12,19 @@
 		text.style.fontSize = font;
 		text.style.color = "red";
 		text.textContent="TEXT-GROWING";
-		if(font==50){
-		flag=1;
-		}
+		if(font == =50)
+			flag=1;
 	}
 	function dec(){
 		font--;
 		text.style.fontSize = font;
 		text.style.color = "blue";
 		text.textContent="TEXT-SHRINKING";
-		if(font==5){
-		flag=0;
-		}
+		if(font === 5)
+			flag=0;		
 	}
 	var time = setInterval(function(){
-		if(flag==1){
-			dec();
-		}
-		if(flag==0){
-			inc();
-		}
+		flag === 1 ? dec() : inc() ;
 	}, 100);
 </script>
 </body>
