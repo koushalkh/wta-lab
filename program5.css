@@ -8,21 +8,6 @@ student {
 	border: 2px solid white;
 	margin: 50px;
 }
-name {
-	display: block;
-}
-age {
-	display: block;
-}
-usn {
-	display: block;
-}
-branch {
-	display: block;
-}
-college {
-	display: block;
-}
-year {
+name, age, usn, branch, college, year {
 	display: block;
 }
