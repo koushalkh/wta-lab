@@ -5,7 +5,7 @@
 
 <!DOCTYPE html>
 <html>
-	<body>
+	<head>
 		<style>
 			table, td, th{
 				border: 1px solid black;
@@ -16,6 +16,9 @@
 			}
 			table { margin: auto; }
 		</style>
+	</head>
+	<body>
+		
 		<?php
             // refer manual for these 4 lines
 			$servername = "localhost";
